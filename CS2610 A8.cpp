@@ -46,7 +46,7 @@ int Con_Stalls = 0;
 
 int Condition_BEQZ = 0;
 
-//Function to update the DCache after program execution
+//Function to update the DCache after program is executed
 void Update_DCache() {
     ofstream dcaOut("DCache.txt");
     for(int i=0;i<256;i++) {
