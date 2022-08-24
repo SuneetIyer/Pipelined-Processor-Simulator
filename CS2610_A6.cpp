@@ -38,7 +38,7 @@ private :
     void process(pair<unsigned int,char> x);        //Private method to service each request
 
     //Functions for Pseudo LRU
-    int** PLRU_Tree;                                //Stores the binary tree for each Set
+    int** PLRU_Tree;                                //Stores the binary tree for each set
     int PLRU_Get_Victim(int Set_Index);             //Gets the victim node in each set, based on PLRU_Tree
     void PLRU_Update(int Set_Index, int Node);      //Updates all parent node values in tree to not point given node
 
