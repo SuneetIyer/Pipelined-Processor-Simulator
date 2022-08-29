@@ -419,6 +419,7 @@ int main()
         cout<<"Pseudo-LRU Replacement"<<endl;
     }
 
+    
     Cache C;
     C.readTraces(traces);
     C.printDetails();
