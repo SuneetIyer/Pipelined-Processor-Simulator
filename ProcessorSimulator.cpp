@@ -545,8 +545,6 @@ int main() {
     dca.close();
     rf.close();
     out.close();
-
     Update_DCache();
-
     return 0;
 }
